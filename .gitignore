@@ -1,0 +1,39 @@
+# --- Python Gereksiz Dosyaları ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.vscode/
+.idea/
+
+# --- İşletim Sistemi Çöpleri ---
+.DS_Store
+Thumbs.db
+
+# --- LaTeX Çıktıları (Sadece PDF Kalsın Diye) ---
+# Bu dosyalar raporu derlerken oluşur, repoda kalabalık yapar.
+docs/*.aux
+docs/*.log
+docs/*.toc
+docs/*.blg
+docs/*.bbl
+docs/*.out
+docs/*.fdb_latexmk
+docs/*.fls
+docs/*.synctex.gz
+
+# --- Hassas Veriler ---
+.env
+.env.local
+
+# --- Model ve Veri (İsteğe Bağlı) ---
+# Eğer dqn_model.pth dosyasını İSTİYORSAN 
+# aşağıdaki satırın başına # koy (yani yorum satırı yap).
+# dqn_model.pth
+# *.pth
